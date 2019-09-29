@@ -110,6 +110,9 @@
 					<webApp>
 						<contextPath>/${project.artifactId}</contextPath>
 					</webApp>
+					<httpConnector>
+        					<port>9595</port>
+    					</httpConnector>
 				</configuration>
 			</plugin>
 		</plugins>
